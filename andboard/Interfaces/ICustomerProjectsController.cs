@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace andboard.Interfaces
 {
-    interface ICustomerProjectsController
+    public interface ICustomerProjectsController
     {
         IActionResult FindById(long id);
         IActionResult FindAll();

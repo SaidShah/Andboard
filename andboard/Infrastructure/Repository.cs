@@ -25,6 +25,7 @@ namespace andboard.Infrastructure
             Context.Add(obj);
             var totalRecordsSaved = Context.SaveChanges();
             result.HasErrors = totalRecordsSaved <= 0;
+            result.ResultObject = obj;
             return result;
         }
 
