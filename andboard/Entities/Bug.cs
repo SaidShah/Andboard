@@ -12,7 +12,7 @@ namespace andboard.Entities
         [Required]
         public DateTimeOffset CreatedOn { get; set; }
 
-        public DateTimeOffset DeletedOn { get; set; }
+        public DateTimeOffset? DeletedOn { get; set; }
 
         [Required]
         public string Description { get; set; }

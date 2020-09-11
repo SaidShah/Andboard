@@ -25,7 +25,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="Conductors\" />
     <Folder Include="Dtos\" />
-    <Folder Include="Infrastructure\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
 

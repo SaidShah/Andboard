@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using andboard.Interfaces;
+using andboard.Infrastructure;
+using andboard.Conductors;
 
 namespace andboard
 {
@@ -36,6 +38,9 @@ namespace andboard
             
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped(typeof(IContext), typeof(Context));
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IRepositoryReadConductor<>), typeof(RepositoryReadConductor<>));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
