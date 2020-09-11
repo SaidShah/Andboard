@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using andboard.Entities;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,7 @@ namespace andboard.Interfaces
     {
         IActionResult FindById(long id);
         IActionResult FindAll();
+        IActionResult Update(CustomerProject obj);
+        IActionResult Create(CustomerProject obj);
     }
 }

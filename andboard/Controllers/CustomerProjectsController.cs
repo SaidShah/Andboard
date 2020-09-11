@@ -15,13 +15,16 @@ namespace andboard.Controllers
     {
         private IRepositoryReadConductor<CustomerProject> _repositoryReadConductor;
         private IRepositoryCreateConductor<CustomerProject> _repositoryCreateConductor;
+        private IRepositoryUpdateConductor<CustomerProject> _repositoryUpdateConductor;
 
         public CustomerProjectsController(
             IRepositoryReadConductor<CustomerProject> repositoryReadConductor,
-            IRepositoryCreateConductor<CustomerProject> repositoryCreateConductor)
+            IRepositoryCreateConductor<CustomerProject> repositoryCreateConductor,
+            IRepositoryUpdateConductor<CustomerProject> repositoryUpdateConductor)
         {
             _repositoryReadConductor = repositoryReadConductor;
             _repositoryCreateConductor = repositoryCreateConductor;
+            _repositoryUpdateConductor = repositoryUpdateConductor;
         }
 
         [HttpGet]
@@ -41,8 +44,14 @@ namespace andboard.Controllers
         [HttpPost]
         public IActionResult Create(CustomerProject customerProject)
         {
-            var result = _repositoryCreateConductor.Create(customerProject as CustomerProject);
+            var result = _repositoryCreateConductor.Create(customerProject);
             return Ok(result);
+        }
+
+        [HttpPatch]
+        public IActionResult Update(CustomerProject customerProject)
+        {
+            throw new NotImplementedException();
         }
 
     }

@@ -45,7 +45,10 @@ namespace andboard.Infrastructure
 
         public IResult<T> Update(T obj)
         {
-            throw new NotImplementedException();
+            var entity = FindById(obj.Id);
+            entity.ResultObject = obj;
+            Context.Update(entity);
+            return entity;
         }
     }
 }
