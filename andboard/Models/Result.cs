@@ -11,6 +11,8 @@ namespace andboard.Models
         public T ResultObject { get; set; }
         public bool HasErrors { get; set; }
 
+        public Result() { }
+
         public Result(T resultObject)
         {
             ResultObject = resultObject;

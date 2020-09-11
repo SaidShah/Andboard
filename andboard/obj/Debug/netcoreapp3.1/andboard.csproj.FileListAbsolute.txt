@@ -61,3 +61,6 @@ D:\Personal Projects\Andboard\andboard\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Personal Projects\Andboard\andboard\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 D:\Personal Projects\Andboard\andboard\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Personal Projects\Andboard\andboard\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Personal Projects\Andboard\andboard\obj\Debug\netcoreapp3.1\andboard.csproj.CoreCompileInputs.cache
+D:\Personal Projects\Andboard\andboard\obj\Debug\netcoreapp3.1\andboard.MvcApplicationPartsAssemblyInfo.cache
+D:\Personal Projects\Andboard\andboard\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace andboard.Interfaces
 {
-    interface IEntity
+    public interface IEntity
     {
         long Id { get; set; }
     }

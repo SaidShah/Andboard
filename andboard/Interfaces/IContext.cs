@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace andboard.Interfaces
 {
-    interface IContext : IDisposable
+    public interface IContext : IDisposable
     {
         void Add<T>(T entity) where T : class;
         IQueryable<T> Query<T>() where T : class;

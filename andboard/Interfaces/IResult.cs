@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace andboard.Interfaces
 {
-    interface IResult<T>
+    public interface IResult<T>
     {
         T ResultObject { get; set; }
 

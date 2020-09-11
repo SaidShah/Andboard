@@ -20,13 +20,7 @@ namespace andboard.Data
         public virtual DbSet<FeatureItem> FeatureItems { get; set; }
         public virtual DbSet<CustomerProject> CustomerProjects { get; set; }
 
-
         public void Add<T>(T entity) where T : class => base.Add(entity);
-
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
 
         public IQueryable<T> Query<T>() where T : class => base.Set<T>();
 
