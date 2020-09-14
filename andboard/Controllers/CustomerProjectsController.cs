@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace andboard.Controllers
 {
-    [Route("api/andboards")]
+    [Route("api/andboards/projects")]
     [ApiController]
     public class CustomerProjectsController : Controller, ICustomerProjectsController
     {
