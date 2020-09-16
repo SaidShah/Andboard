@@ -1,16 +1,16 @@
-using System;
-using andboard.Data;
-using Microsoft.Extensions.Configuration;
+using andboard.Core.Conductors;
+using andboard.Core.Interfaces;
+using andboard.Infrastructure;
+using andboard.Infrastructure.Data;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using AutoMapper;
-using Newtonsoft.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using andboard.Interfaces;
-using andboard.Infrastructure;
-using andboard.Conductors;
+using Newtonsoft.Json.Serialization;
+using System;
 
 namespace andboard
 {

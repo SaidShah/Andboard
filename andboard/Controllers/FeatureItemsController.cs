@@ -1,5 +1,5 @@
-﻿using andboard.Entities;
-using andboard.Interfaces;
+﻿using andboard.Core.Entities;
+using andboard.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace andboard.Controllers

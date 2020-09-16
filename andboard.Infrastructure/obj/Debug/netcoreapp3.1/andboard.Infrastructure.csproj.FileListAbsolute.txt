@@ -1,0 +1,12 @@
+D:\Personal Projects\Andboard\andboard.Infrastructure\bin\Debug\netcoreapp3.1\andboard.Infrastructure.deps.json
+D:\Personal Projects\Andboard\andboard.Infrastructure\bin\Debug\netcoreapp3.1\andboard.Infrastructure.dll
+D:\Personal Projects\Andboard\andboard.Infrastructure\obj\Debug\netcoreapp3.1\andboard.Infrastructure.csprojAssemblyReference.cache
+D:\Personal Projects\Andboard\andboard.Infrastructure\obj\Debug\netcoreapp3.1\andboard.Infrastructure.AssemblyInfoInputs.cache
+D:\Personal Projects\Andboard\andboard.Infrastructure\obj\Debug\netcoreapp3.1\andboard.Infrastructure.AssemblyInfo.cs
+D:\Personal Projects\Andboard\andboard.Infrastructure\bin\Debug\netcoreapp3.1\andboard.Core.dll
+D:\Personal Projects\Andboard\andboard.Infrastructure\bin\Debug\netcoreapp3.1\andboard.Core.pdb
+D:\Personal Projects\Andboard\andboard.Infrastructure\obj\Debug\netcoreapp3.1\andboard.Infrastructure.csproj.CopyComplete
+D:\Personal Projects\Andboard\andboard.Infrastructure\obj\Debug\netcoreapp3.1\andboard.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Personal Projects\Andboard\andboard.Infrastructure\bin\Debug\netcoreapp3.1\andboard.Infrastructure.pdb
+D:\Personal Projects\Andboard\andboard.Infrastructure\obj\Debug\netcoreapp3.1\andboard.Infrastructure.dll
+D:\Personal Projects\Andboard\andboard.Infrastructure\obj\Debug\netcoreapp3.1\andboard.Infrastructure.pdb

@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using andboard.Conductors;
-using andboard.Entities;
-using andboard.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using andboard.Core.Entities;
+using andboard.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace andboard.Controllers

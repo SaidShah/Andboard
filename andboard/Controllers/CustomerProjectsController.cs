@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using andboard.Entities;
-using andboard.Interfaces;
-using andboard.Models;
+﻿using andboard.Core.Entities;
+using andboard.Core.Interfaces;
+using andboard.Presentation.Controllers;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace andboard.Controllers
 {
     [Route("api/andboards/projects")]
     [ApiController]
-    public class CustomerProjectsController : Controller, ICustomerProjectsController
+    public class CustomerProjectsController : Controller
     {
         private IRepositoryReadConductor<CustomerProject> _repositoryReadConductor;
         private IRepositoryCreateConductor<CustomerProject> _repositoryCreateConductor;

@@ -1,0 +1,9 @@
+D:\Personal Projects\Andboard\andboard.Core\bin\Debug\netcoreapp3.1\andboard.Core.deps.json
+D:\Personal Projects\Andboard\andboard.Core\bin\Debug\netcoreapp3.1\andboard.Core.dll
+D:\Personal Projects\Andboard\andboard.Core\bin\Debug\netcoreapp3.1\andboard.Core.pdb
+D:\Personal Projects\Andboard\andboard.Core\obj\Debug\netcoreapp3.1\andboard.Core.csprojAssemblyReference.cache
+D:\Personal Projects\Andboard\andboard.Core\obj\Debug\netcoreapp3.1\andboard.Core.AssemblyInfoInputs.cache
+D:\Personal Projects\Andboard\andboard.Core\obj\Debug\netcoreapp3.1\andboard.Core.AssemblyInfo.cs
+D:\Personal Projects\Andboard\andboard.Core\obj\Debug\netcoreapp3.1\andboard.Core.csproj.CoreCompileInputs.cache
+D:\Personal Projects\Andboard\andboard.Core\obj\Debug\netcoreapp3.1\andboard.Core.dll
+D:\Personal Projects\Andboard\andboard.Core\obj\Debug\netcoreapp3.1\andboard.Core.pdb
